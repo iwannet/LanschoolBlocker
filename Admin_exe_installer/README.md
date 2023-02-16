@@ -1,3 +1,11 @@
-## admin_exe_installer.bat
+# Admin Exe Installer
+This little script circuvents the need for admin access to install apps on school/work computers. It doesn't work on every computer. 
 
-This script circumvents the admin needs for installing apps on some work and school pc's. ! doesnt work with every app !
+## Download
+
+You can download the script [here](https://github.com/iwannet/Projects/releases/download/v1.0/Admin_exe_installer.bat)
+
+## Credits
+
+Make sure to give credits to [me](https://iwannet.github.io/)
+
