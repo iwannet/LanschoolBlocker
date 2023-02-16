@@ -15,6 +15,8 @@ Download [this file](https://github.com/iwannet/Projects/releases/latest/downloa
 2) Click on "more information"
 3) Click on "run anyways"
 ```
+## Tutorial
+You can follow my youtube tutorial [here](https://www.youtube.com/watch?v=7QPeEqb_TH8)
 
 ## Important Notes
 
