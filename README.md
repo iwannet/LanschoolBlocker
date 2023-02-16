@@ -1,17 +1,25 @@
 # Projects
-All the downloads for my projects
+
+Here you can find all the downloads and docs for my projects
+
+## LanschoolAir Blocker
+
+This script blocks lanschool and lanschool air from starting on your (school)computer
+
+You can find it [here](https://github.com/iwannet/Projects/tree/main/Lanschool_stop#lanschoolair-blocker)
+
+## Admin Exe Installer
+This little script circuvents the need for admin access to install apps on school/work computers. It doesn't work on every computer. 
+
+You can download it [here](https://github.com/iwannet/Projects/blob/main/Admin_exe_installer/README.md#admin-exe-installer)
 
 
-## Lanschool_stop.bat
+## Dankmeme Bot
 
- This script blocks the lanschool and lanschool air from starting on your (school)computer it also start automatically on boot
+This bot auto farms dank meme coins.
 
-## admin_exe_installer.bat
+You can find further info [here](https://github.com/iwannet/Projects/blob/main/Dankmeme_bot/README.md#dankmeme_bot)
 
- This script circumvents the admin needs for installing apps on some work and school pc's. ! doesnt work with every app !
+## Credits
 
-## Dankmeme_bot
-
- This bot auto farms dank meme coins. Download the zip of the folder and Just run the dankmeme script and let go. Run the stopdankmeme script to stop the bot.
-
-
+Make sure to always give credits to [me](https://iwannet.github.io/)
