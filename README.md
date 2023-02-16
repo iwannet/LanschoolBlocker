@@ -23,3 +23,7 @@ You can find further info [here](https://github.com/iwannet/Projects/blob/main/D
 ## Credits
 
 Make sure to always give credits to [me](https://iwannet.github.io/)
+
+## License
+
+[GNU Affero General Public License v3.0](https://github.com/iwannet/Projects/blob/main/LICENSE.md)
