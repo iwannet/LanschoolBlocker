@@ -1,19 +1,29 @@
-## Lanschool air blocker
+# LanschoolAir Blocker
 
-This script blocks the lanschool app from starting on your school pc.
+LanschoolAir Blocker is a windows program that stops the lanschool and lanschool air program from starting on your (school)computer
 
-## Downloading
+## Download
 
--Dowload the file from [here](https://github.com/iwannet/Projects/releases/latest/download/Install.bat)
 
--And click download 
+Download [this file](https://github.com/iwannet/Projects/releases/latest/download/Install.bat)
+
 
 ## Install
+
+```bash
 1) Open the file
 2) Click on "more information"
-3) Click on "run"
+3) Click on "run anyways"
+```
 
-You can now delete the old file. The app will auto start when you open your pc. Be sure to not close the windows !
+## Important Notes
+
+You can now delete the old file. The app will auto start. Be sure to not close the window ! 
+
+
 Dont use the pre-installed chrome app on your school-laptop because they can track it to. Just use an other browser.
 
-!! PLease give credits when sharing the app !!
+
+## Credits
+
+Please give credits to [me](https://iwannet.github.io/)
