@@ -29,3 +29,9 @@ Dont use the pre-installed chrome app on your school-laptop because they can tra
 ## Credits
 
 Please give credits to [me](https://iwannet.github.io/)
+
+
+
+
+
+Disclaimer: This program is intended for educational purposes only and should not be used to engage in any illegal activities. Bypassing school filters is strictly prohibited and may result in severe consequences. The content of this program should not be used as a guide or instructions for circumventing any school filters or systems. The creator of this program is not responsible for any harm or damage that may occur as a result of attempting to bypass school filters.
