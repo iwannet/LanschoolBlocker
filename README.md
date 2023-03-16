@@ -4,7 +4,7 @@ Here you can find all the downloads and docs for my projects
 
 ## LanschoolAir Blocker
 
-This script blocks lanschool and lanschool air from starting on your (school)computer
+This script blocks lanschool and lanschool air from starting on your (school)computer. Works with the newest lanschool air [2023]
 
 You can find it [here](https://github.com/iwannet/Projects/tree/main/Lanschool_stop#lanschoolair-blocker)
 
