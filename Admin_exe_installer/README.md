@@ -1,5 +1,5 @@
 # Admin Exe Installer
-This little script circuvents the need for admin access to install apps on school/work computers. It doesn't work on every computer. 
+This little script circumvents the need for admin access to install apps on school/work computers. It doesn't work on every computer. 
 
 ## Download
 
