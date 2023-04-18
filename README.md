@@ -9,7 +9,7 @@ This script blocks lanschool and lanschool air from starting on your (school)com
 You can find it [here](https://github.com/iwannet/Projects/tree/main/Lanschool_stop#lanschoolair-blocker)
 
 ## Admin Exe Installer
-This little script circuvents the need for admin access to install apps on school/work computers. It doesn't work on every computer. 
+This little script circumvents the need for admin access to install apps on school/work computers. It doesn't work on every computer. 
 
 You can download it [here](https://github.com/iwannet/Projects/blob/main/Admin_exe_installer/README.md#admin-exe-installer)
 
