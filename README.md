@@ -20,6 +20,12 @@ This bot auto farms dank meme coins.
 
 You can find further info [here](https://github.com/iwannet/Projects/blob/main/Dankmeme_bot/README.md#dankmeme_bot)
 
+## Algebra py
+
+This is an python app for the ti-84 python edition (all versions) that solves algebra problems
+
+Look [here](https://github.com/iwannet/Projects/tree/main/Algebra_Py#algebra-py) for more info
+
 ## Credits
 
 Make sure to always give credits to [me](https://iwannet.github.io/)
