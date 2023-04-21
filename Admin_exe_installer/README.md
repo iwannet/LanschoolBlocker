@@ -3,7 +3,7 @@ This little script circumvents the need for admin access to install apps on scho
 
 ## Download
 
-You can download the script [here](https://github.com/iwannet/Projects/releases/download/v1.0/Admin_exe_installer.bat)
+You can download the script [here](https://github.com/iwannet/Projects/releases/download/admin/Admin_exe_installer.bat)
 
 ## Credits
 
