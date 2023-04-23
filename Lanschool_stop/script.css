@@ -1,0 +1,13 @@
+/* Hide sections by default */
+.note-section,
+.credits-section,
+.support-section {
+    display: none;
+}
+
+/* Show sections when clicked */
+.note-section:target,
+.credits-section:target,
+.support-section:target {
+    display: block;
+}
