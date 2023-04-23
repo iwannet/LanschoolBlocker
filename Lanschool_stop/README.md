@@ -2,6 +2,12 @@
 
 LanschoolAir Blocker is a windows program that stops the lanschool and lanschool air program from starting on your (school)computer
 
+## Features
+- Support windows 10-11
+- Almost Undetectable
+- Auto start
+- Auto update
+
 ## Download
 
 
@@ -20,7 +26,7 @@ You can follow my youtube tutorial [here](https://www.youtube.com/watch?v=7QPeEq
 
 ## Important Notes
 
-You can now delete the old file. The app will auto start. Be sure to not close the window ! 
+You can now delete the old file. The app will auto start.
 
 
 Dont use the pre-installed chrome app on your school-laptop because they can track it to. Just use an other browser.
@@ -29,6 +35,10 @@ Dont use the pre-installed chrome app on your school-laptop because they can tra
 ## Credits
 
 Please give credits to [me](https://iwannet.github.io/)
+
+## Support
+
+If you have questions, email me at [info@iwannet.cc](mailto:info@iwannet.cc)
 
 
 
