@@ -3,7 +3,7 @@
 LanschoolAir Blocker is a windows program that stops the lanschool and lanschool air program from starting on your (school)computer
 
 ## Features
-- Support windows 10-11
+- Supports windows 10-11
 - Almost Undetectable
 - Auto start
 - Auto update
