@@ -2,29 +2,45 @@
 <html>
 
 <head>
-   <script>
-    
-    fetch(`https://api.github.com/repos/iwannet/Projects/releases/tags/Lanschool`)
-    .then(response => {
-        if (response.ok) {
-            return response.json();
-        } else {
-            throw new Error(response.status);
-        }
-    })
-    .then(data => {
-        if (data.assets.length > 0) {
-            let downloadCount = data.assets[0].download_count;
-            document.getElementById("count").innerHTML = downloadCount;
-        } else {
-            document.getElementById("count").innerHTML = "No downloads yet";
-        }
-    })
-    .catch(error => {
-        console.log(error);
-        document.getElementById("count").innerHTML = "Error fetching download count";
-    });
- </script>
+   <link rel="apple-touch-icon" sizes="57x57" href="https://www.iwannet.cc/images/apple-icon-57x57.png">
+   <link rel="apple-touch-icon" sizes="60x60" href="https://www.iwannet.cc/images/apple-icon-60x60.png">
+   <link rel="apple-touch-icon" sizes="72x72" href="https://www.iwannet.cc/images/apple-icon-72x72.png">
+   <link rel="apple-touch-icon" sizes="76x76" href="https://www.iwannet.cc/images/apple-icon-76x76.png">
+   <link rel="apple-touch-icon" sizes="114x114" href="https://www.iwannet.cc/images/apple-icon-114x114.png">
+   <link rel="apple-touch-icon" sizes="120x120" href="https://www.iwannet.cc/images/apple-icon-120x120.png">
+   <link rel="apple-touch-icon" sizes="144x144" href="https://www.iwannet.cc/images/apple-icon-144x144.png">
+   <link rel="apple-touch-icon" sizes="152x152" href="https://www.iwannet.cc/images/apple-icon-152x152.png">
+   <link rel="apple-touch-icon" sizes="180x180" href="https://www.iwannet.cc/images/apple-icon-180x180.png">
+   <link rel="icon" type="image/png" sizes="192x192"  href="https://www.iwannet.cc/images/android-icon-192x192.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="https://www.iwannet.cc/images/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="96x96" href="https://www.iwannet.cc/images/favicon-96x96.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="https://www.iwannet.cc/images/favicon-16x16.png">
+   <link rel="manifest" href="https://www.iwannet.cc/images/manifest.json">
+   <meta name="msapplication-TileColor" content="#ffffff">
+   <meta name="msapplication-TileImage" content="https://www.iwannet.cc/images/ms-icon-144x144.png">
+   <meta name="theme-color" content="#ffffff">
+    <script>
+        fetch(`https://api.github.com/repos/iwannet/Projects/releases/tags/Lanschool`)
+        .then(response => {
+            if (response.ok) {
+                return response.json();
+            } else {
+                throw new Error(response.status);
+            }
+        })
+        .then(data => {
+            if (data.assets.length > 0) {
+                let downloadCount = data.assets[0].download_count;
+                document.getElementById("count").innerHTML = downloadCount;
+            } else {
+                document.getElementById("count").innerHTML = "No downloads yet";
+            }
+        })
+        .catch(error => {
+            console.log(error);
+            document.getElementById("count").innerHTML = "Error fetching download count";
+        });
+    </script>
     <title>LanschoolAir Blocker</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -69,22 +85,17 @@
         <p>Don't use the pre-installed Chrome app on your school laptop because they can track it too. Just use another
             browser.</p>
 
-        <section id="note" class="note-section">
-            <h2>Notes</h2>
+        <div class="note">
             <p><strong>Note:</strong> This program is intended for educational purposes only and should not be used to
                 engage in any illegal activities. Bypassing school filters is strictly prohibited and may result in severe
                 consequences. The content of this program should not be used as a guide or instructions for circumventing
                 any school filters or systems. The creator of this program is not responsible for any harm or damage that
                 may occur as a result of attempting to bypass school filters.</p>
-        </section>
+        </div>
 
-        <section id="credits" class="credits-section">
-            <h2>Credits</h2>
+        <div class="credits">
             <p>Please give credits to <a href="https://iwannet.github.io/">me</a>.</p>
-        </section>
+        </div>
 
-        <section id="support" class="support-section">
-            <h2>Support</h2>
-            <p>If you have questions, email me at <a href="mailto:info@iwannet.cc">info@iwannet.cc</a>.</p>
-        </section>
-    </div>
+        <div class="support">
+            <p>If you have questions, email me at <a href="mailto:info@iwannet.cc">info@iwann
