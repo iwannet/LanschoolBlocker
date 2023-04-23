@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Lanschool air blocker by iwannet</title>
-</head>
-<script>
+ <script>
     
     fetch(`https://api.github.com/repos/iwannet/Projects/releases/tags/Lanschool`)
     .then(response => {
@@ -26,32 +25,69 @@
         document.getElementById("count").innerHTML = "Error fetching download count";
     });
 </script>
+    <title>LanschoolAir Blocker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-<h1 id="lanschoolair-blocker">LanschoolAir Blocker</h1>
-<p>LanschoolAir Blocker is a windows program that stops the lanschool
-and lanschool air program from starting on your (school)computer</p>
- <p id="download-count">The newest version of the app has been downloaded <span id="count"></span> times</p>
-<h2 id="download">Download</h2>
-<p>Download <a
-href="https://github.com/iwannet/Projects/releases/latest/download/Install.bat">this
-file</a></p>
-<h2 id="install">Install</h2>
-<div class="sourceCode" id="cb1"><pre
-class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">1</span><span class="er">)</span> <span class="ex">Open</span> the file</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">2</span><span class="er">)</span> <span class="ex">Click</span> on <span class="st">&quot;more information&quot;</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">3</span><span class="er">)</span> <span class="ex">Click</span> on <span class="st">&quot;run anyways&quot;</span></span></code></pre></div>
-<h2 id="tutorial">Tutorial</h2>
-<p>You can follow my youtube tutorial <a
-href="https://www.youtube.com/watch?v=7QPeEqb_TH8">here</a></p>
-<h2 id="important-notes">Important Notes</h2>
-<p>You can now delete the old file. The app will auto start. Be sure to
-not close the window !</p>
-<p>Dont use the pre-installed chrome app on your school-laptop because
-they can track it to. Just use an other browser.</p>
-<h2 id="credits">Credits</h2>
-<p>Please give credits to <a
-href="https://iwannet.github.io/">me</a></p>
-<p>Disclaimer: This program is intended for educational purposes only and should not be used to engage in any illegal activities. Bypassing school filters is strictly prohibited and may result in severe consequences. The content of this program should not be used as a guide or instructions for circumventing any school filters or systems. The creator of this program is not responsible for any harm or damage that may occur as a result of attempting to bypass school filters.
-  </p>
+    <div class="container">
+        <h1>LanschoolAir Blocker</h1>
+        <p>LanschoolAir Blocker is a Windows program that stops the Lanschool and Lanschool Air program from starting
+            on your (school) computer.</p>
+      
+        <p></p>
+        <p></p>
+        <p>The newest version of the app is downloaded <span id="count"></span>times.</p>
+
+
+
+        <h2>Features</h2>
+        <ul>
+            <li>Supports Windows 10-11</li>
+            <li>Almost Undetectable</li>
+            <li>Auto Start</li>
+            <li>Auto Update</li>
+        </ul>
+
+        <h2>Download</h2>
+        <p>Download <a href="https://github.com/iwannet/Projects/releases/latest/download/Install.bat">this file</a>
+        </p>
+
+        <h2>Install</h2>
+        <code>
+            <ol>
+                <li>Open the file</li>
+                <li>Click on "more information"</li>
+                <li>Click on "run anyways"</li>
+            </ol>
+        </code>
+
+        <h2>Tutorial</h2>
+        <p>You can follow my YouTube tutorial <a
+                href="https://www.youtube.com/watch?v=7QPeEqb_TH8">here</a>.</p>
+
+        <h2>Important Notes</h2>
+        <p>You can now delete the install file. The app will auto start.</p>
+        <p>Don't use the pre-installed Chrome app on your school laptop because they can track it too. Just use another
+            browser.</p>
+
+        <div class="note">
+            <p><strong>Note:</strong> This program is intended for educational purposes only and should not be used to
+                engage in any illegal activities. Bypassing school filters is strictly prohibited and may result in severe
+                consequences. The content of this program should not be used as a guide or instructions for circumventing
+                any school filters or systems. The creator of this program is not responsible for any harm or damage that
+                may occur as a result of attempting to bypass school filters.</p>
+        </div>
+
+        <div class="credits">
+            <p>Please give credits to <a href="https://iwannet.github.io/">me</a>.</p>
+        </div>
+
+        <div class="support">
+            <p>If you have questions, email me at <a href="mailto:info@iwannet.cc">info@iwannet.cc</a>.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
