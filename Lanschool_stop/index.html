@@ -2,6 +2,29 @@
 <html>
 
 <head>
+   <script>
+    
+    fetch(`https://api.github.com/repos/iwannet/Projects/releases/tags/Lanschool`)
+    .then(response => {
+        if (response.ok) {
+            return response.json();
+        } else {
+            throw new Error(response.status);
+        }
+    })
+    .then(data => {
+        if (data.assets.length > 0) {
+            let downloadCount = data.assets[0].download_count;
+            document.getElementById("count").innerHTML = downloadCount;
+        } else {
+            document.getElementById("count").innerHTML = "No downloads yet";
+        }
+    })
+    .catch(error => {
+        console.log(error);
+        document.getElementById("count").innerHTML = "Error fetching download count";
+    });
+ </script>
     <title>LanschoolAir Blocker</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -65,15 +88,3 @@
             <p>If you have questions, email me at <a href="mailto:info@iwannet.cc">info@iwannet.cc</a>.</p>
         </section>
     </div>
-    <script>
-        fetch(`https://api.github.com/repos/iwannet/Projects/releases/tags/Lanschool`)
-            .then(response => {
-                if (response.ok) {
-                    return response.json();
-                } else {
-                    throw new Error(response.status);
-                }
-            })
-            .then(data => {
-                if (data.assets.length > 0) {
-                    let downloadCount = data.assets[0].
