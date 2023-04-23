@@ -2,29 +2,6 @@
 <html>
 
 <head>
- <script>
-    
-    fetch(`https://api.github.com/repos/iwannet/Projects/releases/tags/Lanschool`)
-    .then(response => {
-        if (response.ok) {
-            return response.json();
-        } else {
-            throw new Error(response.status);
-        }
-    })
-    .then(data => {
-        if (data.assets.length > 0) {
-            let downloadCount = data.assets[0].download_count;
-            document.getElementById("count").innerHTML = downloadCount;
-        } else {
-            document.getElementById("count").innerHTML = "No downloads yet";
-        }
-    })
-    .catch(error => {
-        console.log(error);
-        document.getElementById("count").innerHTML = "Error fetching download count";
-    });
-</script>
     <title>LanschoolAir Blocker</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -34,12 +11,10 @@
         <h1>LanschoolAir Blocker</h1>
         <p>LanschoolAir Blocker is a Windows program that stops the Lanschool and Lanschool Air program from starting
             on your (school) computer.</p>
-      
+
         <p></p>
         <p></p>
-        <p>The newest version of the app is downloaded <span id="count"></span>times.</p>
-
-
+        <p>The newest version of the app is downloaded <span id="count"></span> times.</p>
 
         <h2>Features</h2>
         <ul>
@@ -71,23 +46,34 @@
         <p>Don't use the pre-installed Chrome app on your school laptop because they can track it too. Just use another
             browser.</p>
 
-        <div class="note">
+        <section id="note" class="note-section">
+            <h2>Notes</h2>
             <p><strong>Note:</strong> This program is intended for educational purposes only and should not be used to
                 engage in any illegal activities. Bypassing school filters is strictly prohibited and may result in severe
                 consequences. The content of this program should not be used as a guide or instructions for circumventing
                 any school filters or systems. The creator of this program is not responsible for any harm or damage that
                 may occur as a result of attempting to bypass school filters.</p>
-        </div>
+        </section>
 
-        <div class="credits">
+        <section id="credits" class="credits-section">
+            <h2>Credits</h2>
             <p>Please give credits to <a href="https://iwannet.github.io/">me</a>.</p>
-        </div>
+        </section>
 
-        <div class="support">
+        <section id="support" class="support-section">
+            <h2>Support</h2>
             <p>If you have questions, email me at <a href="mailto:info@iwannet.cc">info@iwannet.cc</a>.</p>
-        </div>
+        </section>
     </div>
-    <script src="script.js"></script>
-</body>
-
-</html>
+    <script>
+        fetch(`https://api.github.com/repos/iwannet/Projects/releases/tags/Lanschool`)
+            .then(response => {
+                if (response.ok) {
+                    return response.json();
+                } else {
+                    throw new Error(response.status);
+                }
+            })
+            .then(data => {
+                if (data.assets.length > 0) {
+                    let downloadCount = data.assets[0].
