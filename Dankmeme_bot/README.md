@@ -8,7 +8,7 @@ Download the zip of the folder [here](https://download-directory.github.io/?url=
 ## Installation
 
 ```bash
-1) Unpack the folder
+1) Unpack the folder in the music folder
 2) Open The discord app
 3) Go to a private server with the dankmeme bot in
 4) Run the bot and click in the textbox to send a message to the server.
