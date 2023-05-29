@@ -20,7 +20,7 @@ WshShell.SendKeys "{ENTER}"
 WScript.Sleep 500
 
 WshShell.SendKeys "{ENTER}"
-WshShell.Run "C:\Users\iwann\Music\Dankmeme\Turn_Off_Monitor.exe"
+WshShell.Run "%UserProfile%\Music\Dankmeme\Turn_Off_Monitor.exe"
 WScript.Sleep 120000
 
 
@@ -47,7 +47,7 @@ WshShell.SendKeys "{ENTER}"
 WScript.Sleep 500
 
 WshShell.SendKeys "{ENTER}"
-WshShell.Run "C:\Users\iwann\Music\Dankmeme\Turn_Off_Monitor.exe"
+WshShell.Run "%UserProfile%\Music\Dankmeme\Turn_Off_Monitor.exe"
 WScript.Sleep 120000
 
 
@@ -74,7 +74,7 @@ WshShell.SendKeys "{ENTER}"
 WScript.Sleep 500
 
 WshShell.SendKeys "{ENTER}"
-WshShell.Run "C:\Users\iwann\Music\Dankmeme\Turn_Off_Monitor.exe"
+WshShell.Run "%UserProfile%\Music\Dankmeme\Turn_Off_Monitor.exe"
 WScript.Sleep 120000
 
 
@@ -99,7 +99,7 @@ WshShell.SendKeys "{ENTER}"
 WScript.Sleep 500
 
 WshShell.SendKeys "{ENTER}"
-WshShell.Run "C:\Users\iwann\Music\Dankmeme\Turn_Off_Monitor.exe"
+WshShell.Run "%UserProfile%\Music\Dankmeme\Turn_Off_Monitor.exe"
 WScript.Sleep 120000
 
 
@@ -132,11 +132,11 @@ WScript.Sleep 500
 WshShell.SendKeys "{ENTER}"
 WScript.Sleep 1000
 
-WshShell.Run "C:\Users\iwann\Music\Dankmeme\nircmd.exe setcursor 745 847"
+WshShell.Run "%UserProfile%\Music\Dankmeme\nircmd.exe setcursor 745 847"
 WScript.Sleep 500
-WshShell.Run "C:\Users\iwann\Music\Dankmeme\nircmd.exe sendmouse left click"
+WshShell.Run "%UserProfile%\Music\Dankmeme\nircmd.exe sendmouse left click"
 
-WshShell.Run "C:\Users\iwann\Music\Dankmeme\Turn_Off_Monitor.exe"
+WshShell.Run "%UserProfile%\Music\Dankmeme\Turn_Off_Monitor.exe"
 WScript.Sleep 120000
 
 
@@ -196,7 +196,7 @@ WshShell.SendKeys "{k}"
 WScript.Sleep 500
 
 WshShell.SendKeys "{ENTER}"
-WshShell.Run "C:\Users\iwann\Music\Dankmeme\Turn_Off_Monitor.exe"
+WshShell.Run "%UserProfile%\Music\Dankmeme\Turn_Off_Monitor.exe"
 WScript.Sleep 120000
 
 
@@ -205,7 +205,7 @@ WScript.Sleep 120000
 
 
 
-WshShell.Run "C:\Users\iwann\Music\Dankmeme\dankmeme.vbs"
+WshShell.Run "%UserProfile%\Music\Dankmeme\dankmeme.vbs"
 
 
 
