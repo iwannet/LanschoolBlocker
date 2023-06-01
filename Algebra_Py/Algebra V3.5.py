@@ -10,14 +10,17 @@ answer1 = input(menu1)
 def choose():
     menu3 = "\n1: Run Again\n2: Exit \n3: Credits\n\n"
     answer3 = input(menu3)
-    if answer3 == "1" or answer3 == "2":
+    if answer3 == "1" or answer3 == "2" or answer3 == "3":
         if answer3 == "1": 
             run()
-        if answer3 == "2":  
+        elif answer3 == "2":  
             exit()
-        else:
-            print("\nChose a correct option")
-            run()
+        elif answer3 == "3":
+            credits()
+            choose()
+    else:
+        print("\nChose a correct option")
+        run()
 def quadratic_solver():
     a = float(input("Enter the value of a: "))
     b = float(input("Enter the value of b: "))
@@ -94,28 +97,30 @@ def display_formulas():
     
 
 def credits():
-    print("\nCredits:")
-    print("Made by iwannet")
-    print("Made by iwannet --> www.iwannet.cc")
+    try:
+        print("\033[34m" + "\033[1m" + "Credits:\nMade by iwannet -> www.iwannet.cc \033[0m")
+    except:
+        print("Credits:\nMade by iwannet -> www.iwannet.cc")
+
 
 
 def run():
     if answer1 == "1" or answer1 == "2" or answer1 == "3" or answer1 == "4":
         if answer1 == "1": 
             quadratic_solver() 
-            input("\nPress ENTER to exit")
+            input("\nPress ENTER to continue")
             choose()
         if answer1 == "2":  
             alpha_beta_solver() 
-            input("\nPress ENTER to exit")
+            input("\nPress ENTER to continue")
             choose()
         if answer1 == "3": 
             display_formulas() 
-            input("\nPress ENTER to exit")
+            input("\nPress ENTER to continue")
             choose()
         if answer1 == "4":  
             credits() 
-            input("\nPress ENTER to exit")
+            input("\nPress ENTER to continue")
             choose()
     
     else:
