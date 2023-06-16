@@ -23,18 +23,6 @@ body:
     id: crash-report
     attributes:
       label: Link to crash report/log if applicable
-  - type: input
-    id: meteor-version
-    attributes:
-      label: Meteor Version
-    validations:
-      required: true
-  - type: input
-    id: mc-version
-    attributes:
-      label: Minecraft Version
-    validations:
-      required: true
   - type: dropdown
     id: operating-systems
     attributes:
