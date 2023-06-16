@@ -2,6 +2,10 @@
 
 Here you can find all the downloads and docs for my projects
 
+## Issues
+
+If you have an issue or found an bug, please open an issue [here](https://github.com/iwannet/Projects/issues/new/choose)
+
 ## LanschoolAir Blocker
 
 This script blocks lanschool and lanschool air from starting on your (school)computer. Works with the newest lanschool air [2023]
