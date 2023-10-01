@@ -29,8 +29,8 @@
             }
         })
         .then(data => {
-            if (data.assets.length > 0) {
-                let downloadCount = data.assets[0].download_count;
+            if (data.assets.length > 1) {
+                let downloadCount = data.assets[1].download_count;
                 document.getElementById("count").innerHTML = downloadCount;
             } else {
                 document.getElementById("count").innerHTML = "No downloads yet";
