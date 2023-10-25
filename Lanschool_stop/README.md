@@ -21,6 +21,10 @@ Download [this file](https://github.com/iwannet/Projects/releases/latest/downloa
 2) Click on "more information"
 3) Click on "run anyways"
 ```
+## Uninstalling
+
+Use this [script](https://github.com/iwannet/Projects/releases/download/LanschoolUninstaller/Uninstaller.bat)
+
 ## Tutorial
 You can follow my youtube tutorial [here](https://www.youtube.com/watch?v=7QPeEqb_TH8)
 
@@ -40,8 +44,6 @@ Please give credits to [me](https://iwannet.github.io/)
 
 If you have questions, email me at [info@iwannet.cc](mailto:info@iwannet.cc)
 
-
-
-
+## Disclaimer
 
 Disclaimer: This program is intended for educational purposes only and should not be used to engage in any illegal activities. Bypassing school filters is strictly prohibited and may result in severe consequences. The content of this program should not be used as a guide or instructions for circumventing any school filters or systems. The creator of this program is not responsible for any harm or damage that may occur as a result of attempting to bypass school filters.
