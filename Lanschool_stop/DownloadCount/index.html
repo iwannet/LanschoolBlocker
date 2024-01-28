@@ -18,36 +18,43 @@
    <meta name="msapplication-TileColor" content="#ffffff">
    <meta name="msapplication-TileImage" content="https://www.iwannet.cc/images/ms-icon-144x144.png">
    <meta name="theme-color" content="#ffffff">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <script>
-        fetch(`https://api.github.com/repos/iwannet/Projects/releases/tags/Lanschool`)
-        .then(response => {
-            if (response.ok) {
-                return response.json();
-            } else {
-                throw new Error(response.status);
-            }
-        })
-        .then(data => {
-            if (data.assets.length > 1) {
-                let downloadCount = data.assets[1].download_count;
-                document.getElementById("count").innerHTML = downloadCount;
-            } else {
-                document.getElementById("count").innerHTML = "No downloads yet";
-            }
-        })
-        .catch(error => {
-            console.log(error);
-            document.getElementById("count").innerHTML = "Error fetching download count";
-        });
-    </script>
-  
-        <p></p>
-        <p>The newest version of the app is downloaded <span id="count"></span> times.</p>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta charset="utf-8" />
+   <meta name="generator" content="pandoc" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+   <style>
+      body {
+         background-color: transparent;
+         color: black;
+      }
+   </style>
+</head>
+<body>
+   <script>
+      fetch(`https://api.github.com/repos/iwannet/Projects/releases/tags/Lanschool`)
+      .then(response => {
+         if (response.ok) {
+            return response.json();
+         } else {
+            throw new Error(response.status);
+         }
+      })
+      .then(data => {
+         if (data.assets.length > 1) {
+            let downloadCount = data.assets[1].download_count;
+            document.getElementById("count").innerHTML = downloadCount;
+         } else {
+            document.getElementById("count").innerHTML = "No downloads yet";
+         }
+      })
+      .catch(error => {
+         console.log(error);
+         document.getElementById("count").innerHTML = "Error fetching download count";
+      });
+   </script>
+   <p></p>
+   <p>The newest version of the app is downloaded <span id="count"></span> times.</p>
 </body>
 </html>
