@@ -11,7 +11,7 @@ LanschoolAir Blocker is a windows program that stops the lanschool and lanschool
 ## Download
 
 
-Download [this file](https://github.com/iwannet/Projects/releases/latest/download/Install.bat)
+Download [this file](https://github.com/iwannet/LanschoolBlocker/releases/latest/download/Install.bat)
 
 
 ## Install
@@ -23,7 +23,7 @@ Download [this file](https://github.com/iwannet/Projects/releases/latest/downloa
 ```
 ## Uninstalling
 
-Use this [script](https://github.com/iwannet/Projects/releases/download/LanschoolUninstaller/Uninstaller.bat)
+Use this [script](https://github.com/iwannet/LanschoolBlocker/releases/download/LanschoolUninstaller/Uninstaller.bat)
 
 ## Tutorial
 You can follow my youtube tutorial [here](https://www.youtube.com/watch?v=7QPeEqb_TH8)
@@ -38,7 +38,7 @@ Dont use the pre-installed chrome app on your school-laptop because they can tra
 
 ## Credits
 
-Please give credits to [me](https://iwannet.github.io/)
+Please give credits to [me](https://iwannet.cc)
 
 ## Support
 
