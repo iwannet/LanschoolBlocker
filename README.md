@@ -1,39 +1,49 @@
-# Projects
+# LanschoolAir Blocker
 
-Here you can find all the downloads and docs for my projects
+LanschoolAir Blocker is a windows program that stops the lanschool and lanschool air program from starting on your (school)computer
 
-## Issues
+## Features
+- Supports windows 10-11
+- Almost Undetectable
+- Auto start
+- Auto update
 
-If you have an issue or found an bug, please open an issue [here](https://github.com/iwannet/Projects/issues/new/choose)
-
-## LanschoolAir Blocker
-
-This script blocks lanschool and lanschool air from starting on your (school)computer. Works with the newest lanschool air [2023]
-
-You can find it [here](https://github.com/iwannet/Projects/tree/main/Lanschool_stop#lanschoolair-blocker)
-
-## Admin Exe Installer
-This little script circumvents the need for admin access to install apps on school/work computers. It doesn't work on every computer. 
-
-You can download it [here](https://github.com/iwannet/Projects/blob/main/Admin_exe_installer/README.md#admin-exe-installer)
+## Download
 
 
-## Dankmeme Bot
+Download [this file](https://github.com/iwannet/Projects/releases/latest/download/Install.bat)
 
-This bot auto farms dank meme coins.
 
-You can find further info [here](https://github.com/iwannet/Projects/blob/main/Dankmeme_bot/README.md#dankmeme_bot)
+## Install
 
-## Algebra py
+```bash
+1) Open the file
+2) Click on "more information"
+3) Click on "run anyways"
+```
+## Uninstalling
 
-This is an python app for the ti-84 python edition (all versions) that solves algebra problems
+Use this [script](https://github.com/iwannet/Projects/releases/download/LanschoolUninstaller/Uninstaller.bat)
 
-Look [here](https://github.com/iwannet/Projects/tree/main/Algebra_Py#algebra-py) for more info
+## Tutorial
+You can follow my youtube tutorial [here](https://www.youtube.com/watch?v=7QPeEqb_TH8)
+
+## Important Notes
+
+You can now delete the old file. The app will auto start.
+
+
+Dont use the pre-installed chrome app on your school-laptop because they can track it to. Just use an other browser.
+
 
 ## Credits
 
-Make sure to always give credits to [me](https://iwannet.github.io/)
+Please give credits to [me](https://iwannet.github.io/)
 
-## License
+## Support
 
-[GNU Affero General Public License v3.0](https://github.com/iwannet/Projects/blob/main/LICENSE.md)
+If you have questions, email me at [info@iwannet.cc](mailto:info@iwannet.cc)
+
+## Disclaimer
+
+Disclaimer: This program is intended for educational purposes only and should not be used to engage in any illegal activities. Bypassing school filters is strictly prohibited and may result in severe consequences. The content of this program should not be used as a guide or instructions for circumventing any school filters or systems. The creator of this program is not responsible for any harm or damage that may occur as a result of attempting to bypass school filters.
