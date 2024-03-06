@@ -26,7 +26,7 @@ Download [this file](https://github.com/iwannet/LanschoolBlocker/releases/latest
 Use this [script](https://github.com/iwannet/LanschoolBlocker/releases/download/LanschoolUninstaller/Uninstaller.bat)
 
 ## Tutorial
-You can follow my youtube tutorial [here](https://www.youtube.com/watch?v=7QPeEqb_TH8)
+You can follow my youtube tutorial [here](https://youtu.be/0hbgAmH6Nw0)
 
 ## Important Notes
 
